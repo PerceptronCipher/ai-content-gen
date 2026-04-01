@@ -40,12 +40,39 @@ Generate ready-to-post content for any platform in seconds — just pick your to
 ```
 ai-content-gen/
 ├── backend/
-│   ├── main.py              # API routes
-│   ├── content_engine.py    # Calls GPT-4o to generate content
-│   ├── prompt_builder.py    # Builds platform & tone-specific prompts
+│   ├── main.py              # FastAPI / API routes
+│   ├── content_engine.py    # GPT-4o logic
+│   ├── prompt_builder.py    # Prompt templates
 │   └── config.py            # Environment config
-├── frontend/                # Next.js app
-├── render.yaml              # Render deployment config
+├── frontend/                # Next.js (Tailwind + Lucide)
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── layout.tsx   # Global fonts & providers
+│   │   │   ├── page.tsx     # Landing Page (Hero, Features, etc.)
+│   │   │   ├── studio/      # (Optional) Separate route for the Engine
+│   │   │   └── components/
+│   │   │       ├── landing/
+│   │   │       │   ├── Navbar.tsx         # Top navigation
+│   │   │       │   ├── Hero.tsx           # Main CTA section
+│   │   │       │   ├── FeatureGrid.tsx    # Why use Atelier AI
+│   │   │       │   ├── GeneratorPreview.tsx # Visual card preview
+│   │   │       │   ├── StudioEngine.tsx   # THE CORE ENGINE (Main Form)
+│   │   │       │   ├── StudioHeader.tsx   # High-contrast Studio UI header
+│   │   │       │   ├── Steps.tsx          # "How it works" section
+│   │   │       │   └── Footer.tsx         # Bottom navigation & links
+│   │   │       └── ui/
+│   │   │           └── button.tsx         # Reusable Shadcn components
+│   │   ├── lib/
+│   │   │   ├── api.ts       # Axios/Fetch logic for Backend calls
+│   │   │   └── utils.ts     # Tailwind merge / CN logic
+│   │   └── styles/
+│   │       └── globals.css  # Custom animations & base styles
+│   ├── next.config.js       # Next.js configuration
+│   ├── tailwind.config.ts   # Custom Indigo/Slate theme
+│   └── tsconfig.json        # TypeScript config
+├── render.yaml              # Multi-service deployment config
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation.yaml              # Render deployment config
 ├── requirements.txt
 └── README.md
 ```
