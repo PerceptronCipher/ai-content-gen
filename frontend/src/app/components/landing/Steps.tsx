@@ -28,7 +28,7 @@ export default function Steps() {
   return (
     <section
       id='how-it-works'
-      className='py-32 bg-white px-6 relative overflow-hidden'
+      className='py-32 bg-white px-16 relative overflow-hidden'
     >
       <div className='max-w-7xl mx-auto'>
         {/* Section Header */}
