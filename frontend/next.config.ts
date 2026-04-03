@@ -7,12 +7,22 @@
 
 // export default nextConfig;
 
-const nextConfig = {
+import type { NextConfig } from 'next'
+
+const nextConfig: NextConfig = {
+
   experimental: {
-    // If you want the compiler, it must be inside experimental
     reactCompiler: true,
   },
-  // Other config...
+  
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+  },
 }
 
 export default nextConfig
