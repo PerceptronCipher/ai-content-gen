@@ -1,27 +1,3 @@
-// export default function CTA() {
-//   return (
-//     <section className='px-6 py-12'>
-//       <div className='max-w-5xl mx-auto rounded-[3rem] bg-[#0C0F10] p-12 md:p-20 text-center relative overflow-hidden'>
-//         {/* Subtle glow background */}
-//         <div className='absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 blur-[100px] rounded-full' />
-
-//         <div className='relative z-10 space-y-8'>
-//           <h2 className='text-4xl md:text-5xl font-bold text-white leading-tight'>
-//             Ready to never run out of <br /> ideas again?
-//           </h2>
-//           <p className='text-slate-400 max-w-lg mx-auto'>
-//             Join 10,000+ creators who use our AI to scale their content and
-//             build a massive online brand.
-//           </p>
-//           <button className='px-10 py-4 bg-white text-black font-bold rounded-xl hover:bg-slate-100 transition-all'>
-//             Start Generating For Free
-//           </button>
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
-
 'use client'
 
 import { Sparkles, ArrowRight } from 'lucide-react'
