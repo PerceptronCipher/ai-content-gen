@@ -25,7 +25,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className='bg-white pt-16 md:pt-24 pb-10 px-6 border-t border-slate-50'>
+    <footer className='bg-white pt-16 md:pt-24 pb-10 px-16 border-t border-slate-50'>
       <div className='max-w-7xl mx-auto'>
         {/* Main Grid */}
         <div className='grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-12 mb-16 md:mb-20'>

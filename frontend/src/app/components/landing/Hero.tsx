@@ -116,7 +116,7 @@ import {
 
 export default function Hero({ onLaunch }: { onLaunch: () => void }) {
   return (
-    <section className='relative py-12 md:py-20 px-6 overflow-hidden bg-white'>
+    <section className='relative py-12 md:py-20 px-16 overflow-hidden bg-white'>
       <div className='max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center'>
         {/* Left Content */}
         <div className='space-y-7 text-left'>
