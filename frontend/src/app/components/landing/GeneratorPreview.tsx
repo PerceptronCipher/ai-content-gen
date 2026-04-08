@@ -46,7 +46,7 @@ export default function GeneratorPreview() {
     setResult(null)
 
     try {
-      const response = await fetch('https://ai-content-gen.buildoninc.org/generate', {
+      const response = await fetch('https://api-content-gen.buildoninc.org/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

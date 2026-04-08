@@ -1,6 +1,6 @@
 //src/lib/api.ts
 const BACKEND_URL =
-  process.env.NEXT_PUBLIC_API_URL || 'https://ai-content-gen.buildoninc.org'
+  process.env.NEXT_PUBLIC_API_URL || 'https://api-content-gen.buildoninc.org'
 
 export interface GenerateRequest {
   topic: string
