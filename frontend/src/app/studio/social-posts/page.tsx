@@ -22,7 +22,7 @@ export default function SocialPostsPage() {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const BACKEND_URL =
-    process.env.NEXT_PUBLIC_API_URL || 'http://44.222.98.52:8002'
+    process.env.NEXT_PUBLIC_API_URL || 'https://ai-content-gen.buildoninc.org'
 
   useEffect(() => {
     if (scrollRef.current) {
