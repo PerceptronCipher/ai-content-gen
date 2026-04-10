@@ -1,4 +1,4 @@
-//src/lib/api.ts
+//ai-content-gen/frontend/src/lib/api.ts
 const BACKEND_URL =
   process.env.NEXT_PUBLIC_API_URL || 'https://api-content-gen.buildoninc.org'
 
