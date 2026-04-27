@@ -23,7 +23,7 @@ export default function Navbar({ onLaunch }: { onLaunch: () => void }) {
             <Sparkles className='w-5 h-5 text-white fill-current' />
           </div>
           <span className='font-black text-[22px] tracking-[-0.03em] text-[#1A1F23]'>
-            AI Content Generator
+            NOMAD AI
           </span>
         </div>
 
