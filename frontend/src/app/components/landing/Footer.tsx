@@ -15,8 +15,7 @@ export default function Footer() {
       { name: 'FAQ', href: '#faq' },
     ],
     Social: [
-      { name: 'Twitter', href: 'https://twitter.com' },
-      { name: 'LinkedIn', href: 'https://linkedin.com' },
+      { name: 'Twitter', href: 'https://x.com/nomadaio1ai' }
     ],
     Legal: [
       { name: 'Privacy Policy', href: '#' },
@@ -36,7 +35,7 @@ export default function Footer() {
                 <Sparkles className='w-3.5 h-3.5 text-white fill-current' />
               </div>
               <h3 className='font-black text-base text-slate-900 tracking-tighter uppercase'>
-                AI Content Generator
+                NOMAD AI
               </h3>
             </div>
             <p className='text-slate-400 text-[13px] md:text-sm leading-relaxed max-w-[220px] font-medium'>
@@ -69,7 +68,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className='pt-8 border-t border-slate-50'>
           <p className='text-center text-slate-400 text-[10px] md:text-[11px] font-bold uppercase tracking-widest'>
-            © {currentYear} AI Content Generator. Designed for the Digital
+            © {currentYear} NOMAD AI. Designed for the Digital
             Atelier.
           </p>
         </div>
