@@ -39,7 +39,7 @@ export default function Footer() {
                 <Sparkles className="w-3.5 h-3.5 text-white fill-current" />
               </div>
               <h3 className="font-black text-base text-slate-900 tracking-tighter uppercase">
-                NOMAD AI
+                CLARITY AI
               </h3>
             </div>
             <p className="text-slate-400 text-[13px] md:text-sm leading-relaxed max-w-[220px] font-medium">
