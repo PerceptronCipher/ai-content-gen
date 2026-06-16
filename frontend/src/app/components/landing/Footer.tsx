@@ -17,7 +17,7 @@ export default function Footer() {
     Social: [
       {
         name: "Twitter",
-        href: "https://x.com/nomadaio1ai",
+        href: "https://x.com/Clarityaio1ai",
         icon: <FaXTwitter size={24} color="black" />,
       },
     ],
