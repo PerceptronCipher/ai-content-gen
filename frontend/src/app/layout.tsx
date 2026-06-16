@@ -6,6 +6,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Toaster } from 'sonner'
 import { cn } from '@/lib/utils'
+import type { Metadata } from 'next';
 
 // Navigation Components
 import TopHeader from '@/app/components/navigation/TopHeader'
@@ -14,6 +15,13 @@ const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
 })
+
+
+
+export const metadata: Metadata = {
+  title: 'Clarity | Create Content That Actually Gets Attention.',
+  description: 'Create Content That Actually Gets Attention.',
+};
 
 export default function RootLayout({
   children,
